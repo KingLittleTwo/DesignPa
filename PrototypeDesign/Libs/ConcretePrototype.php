@@ -27,6 +27,9 @@ class ConcretePrototype implements Prototype
         return clone $this;
     }
 
+    /**
+     * 深拷贝
+     */
     public function deepCopy()
     {
         $serialize_obj = serialize($this);
