@@ -1,7 +1,9 @@
 <?php
-class MysqlFactory implements MysqlFactory{
+namespace FactoryMethod;
+
+class MysqlFactory implements IFactory{
     public function createDB()
     {
-        return new DBMysql();
+        return new \FactoryMethod\DBMysql();
     }
 }

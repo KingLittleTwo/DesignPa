@@ -1,7 +1,10 @@
 <?php
-class SqliteFactory implements MysqlFactory{
+
+namespace FactoryMethod;
+
+class SqliteFactory implements IFactory{
     public function createDB()
     {
-        return new DBSqlite();
+        return new \FactoryMethod\DBSqlite();
     }
 }

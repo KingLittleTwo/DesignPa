@@ -1,0 +1,15 @@
+{
+    "name": "41662/simple-factory",
+    "authors": [
+        {
+            "name": "wangning",
+            "email": "416621723@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SimpleFactory\\": "./"
+        }
+    }
+}

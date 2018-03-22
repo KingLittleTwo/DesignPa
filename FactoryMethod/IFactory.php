@@ -1,8 +1,9 @@
 <?php
+namespace FactoryMethod;
 /**
  * 用此工厂创建db
  */
-interface Factory
+interface IFactory
 {
     public function createDB();
 }

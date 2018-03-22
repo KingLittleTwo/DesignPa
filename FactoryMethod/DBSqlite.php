@@ -1,9 +1,7 @@
 <?php
-namespace SimpleFactory;
+namespace FactoryMethod;
 
-use SimpleFactory\DB;
-
-class DBSqlite implements DB
+class DBSqlite implements FactoryMethod\IDB
 {
     public function conn($param = [])
     {

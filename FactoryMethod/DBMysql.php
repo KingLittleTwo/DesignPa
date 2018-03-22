@@ -1,9 +1,7 @@
 <?php
-namespace SimpleFactory;
+namespace FactoryMethod;
 
-use SimpleFactory\DB;
-
-class DBMysql implements DB
+class DBMysql implements FactoryMethod\IDB
 {
     public function conn($param = [])
     {

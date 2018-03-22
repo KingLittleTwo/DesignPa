@@ -1,9 +1,9 @@
 <?php
-namespace SimpleFactory;
+namespace FactoryMethod;
 /**
  * 
  */
-interface DB
+interface IDB
 {
     public function conn($param);
 }
